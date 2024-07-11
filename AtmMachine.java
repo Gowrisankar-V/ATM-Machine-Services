@@ -49,7 +49,7 @@ public class AtmMachine
     {
         Scanner in=new Scanner(System.in);
         System.out.print("Enter your Card Name : ");
-        String cardName=in.nextLine();
+        String cardName=in.nextLine().toLowerCase();
         System.out.print("Enter your Pin Number : ");
         try
         {
